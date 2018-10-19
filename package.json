@@ -1,0 +1,25 @@
+{
+  "name": "addon-twig",
+  "version": "5.5.1",
+  "description": "Addon Twig for twig templates",
+  "homepage": "https://github.com/cool-webpro17/addon-twig/#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/cool-webpro17/addon-twig/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cool-webpro17/addon-twig.git"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "jsnext:main": "src/index.js",
+  "author": "cool-webpro17 <cool.webpro17@gmail.com>",
+  "peerDependencies": {},
+  "dependencies": {
+    "path-parse": "^1.0.6",
+    "@storybook/addon-options": "^4.0.0-alpha.16"
+  }
+}
